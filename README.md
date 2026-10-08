@@ -1,16 +1,78 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack Employee Management System developed using **React.js** for the frontend and **Spring Boot** for the backend.
 
-Currently, two official plugins are available:
+This application performs basic **CRUD (Create, Read, Update, Delete) operations** on employee records through REST APIs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add a new employee
+- View all employees
+- Search employee by ID
+- Update employee details
+- Delete an employee
+- REST API integration
+- Responsive and simple user interface
+- MySQL database integration
+- Spring Data JPA for database operations
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
+- Maven
+
+### Database
+- MySQL
+
+### Tools
+- Visual Studio Code
+- Eclipse / Spring Tool Suite
+- Git
+- GitHub
+- Postman
+
+---
+
+## 📂 Project Structure
+
+```text
+Employee Management System
+│
+├── Frontend
+│   ├── src
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
+│
+└── Backend
+    └── vcube
+        ├── src
+        │   └── main
+        │       ├── java
+        │       │   └── com.empportal.vcube
+        │       │       ├── controller
+        │       │       ├── model
+        │       │       ├── repo
+        │       │       └── service
+        │       └── resources
+        │           └── application.properties
+        │
+        ├── pom.xml
+        └── mvnw
